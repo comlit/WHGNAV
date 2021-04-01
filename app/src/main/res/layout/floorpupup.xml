@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/EG"
+        >
+
+
+        <RadioButton
+            android:id="@+id/zweitesOG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Obergeschoss" />
+
+        <RadioButton
+            android:id="@+id/erstesOG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zweitesOG"
+            android:text="1. Obergeschoss" />
+
+        <RadioButton
+            android:id="@+id/EG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/erstesOG"
+            android:text="Erdgeschoss" />
+
+        <RadioButton
+            android:id="@+id/erstesUG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/EG"
+            android:text="1. Untergeschoss" />
+        />
+    </RadioGroup>
+</RelativeLayout>
